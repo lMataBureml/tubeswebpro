@@ -1,34 +1,47 @@
-.navbar {
-	background-color:white;
+body {
+	background-color: #ebebeb;
+	font-family: "Open Sans",arial,sans-serif
+	-webkit-font-smoothing: antialiased!important;
 }
-.navbar ul {
+li {
+	list-style: none;
+    display: list-item;
+}
+ul {
 	list-style: none;
 }
-
-.navbar ul li {
-	float: left;
-    height: 20px;
-    padding: 15px 25px 16px;
-    list-style: none;
-    border-right: 1px solid rgba(0,0,0,.1) !important;
+.navbar {
+	padding:0;
+	background-color: white;
 }
-
-.fbo2{ 
-	color: #999; 
-}
-
-body {
-    font-size: 14px;
+.header {
+	font-size: 14px;
     height: 50px;
     margin: 0 auto;
     width: 1150px;
-    font-family: sans-serif;
-    color: #323233;
-    background-color: #ebebeb;
-    font-smooth: always;
-    -webkit-font-smoothing: antialiased !important;
-    -moz-font-smoothing: antialiased !important;
-    font-smoothing: antialiased !important;
 }
 
-
+.logo {
+	float:left;
+	max-width: 210px;
+    max-height: 40px;
+    height: 40px;
+    vertical-align: middle;
+    margin:5px;
+}
+.header ul {
+	margin: 0;
+    height: 50px;
+    float: right;
+}
+.header ul li {
+    padding: 15px 25px 16px;
+    list-style: none;
+    float: left;
+    border-right: 1px solid rgba(0,0,0,.1)!important;
+}
+.waktu {
+	text-align: right!important;
+	font-weight: 600!important;
+	color: #999!important;
+}

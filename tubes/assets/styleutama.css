@@ -1,0 +1,55 @@
+body {
+}
+.jarak {
+	width: 970px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+.badan {
+	padding-top: 0px;
+	z-index: 1;
+	position: relative;
+    text-align: left;
+    margin: 0 auto;
+    padding: 70px 8px 0;
+    width: 1150px;
+}
+.menubiru {
+    position: relative;
+    opacity: 1;
+    margin-top: 0px;
+    background: rgb(1, 111, 186);
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    position: relative;
+    border-radius: 0;
+    border: 0 solid rgba(0,0,0,.15);
+    color:white;
+}
+.menubiru ul {
+	display: inline-table;
+    text-align: center;
+    width: 1150px;
+    position: relative;
+    list-style: none;
+}
+.menubiru ul li {
+	text-align: center;
+    display: table-cell;
+    list-style: none;
+    border-left: 0 solid rgba(266,255,255,.08);
+    border-right: 1px solid rgba(0,0,0,.1);
+    white-space: nowrap;
+    position: initial;
+}
+.menubiru ul li a{
+    display: block;
+    padding: 12px 9px 10px;
+    border-bottom: 4px solid transparent;
+    height: 20px;
+    color:white;
+}
