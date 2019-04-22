@@ -1,7 +1,7 @@
 body {
 }
 .jarak {
-	width: 970px;
+    width: 970px;
     margin-top: 70px;
     margin-bottom: 20px;
     margin-left: auto;
@@ -9,9 +9,9 @@ body {
     z-index: 1;
 }
 .badan {
-	padding-top: 0px;
-	z-index: 1;
-	position: relative;
+    padding-top: 0px;
+    z-index: 1;
+    position: relative;
     text-align: left;
     margin: 0 auto;
     padding: 70px 8px 0;
@@ -31,14 +31,18 @@ body {
     color:white;
 }
 .menubiru ul {
-	display: inline-table;
+    padding-inline-start: 0px;
+    margin-bottom: 0px;
+    display: inline-table;
     text-align: center;
     width: 1150px;
     position: relative;
     list-style: none;
 }
 .menubiru ul li {
-	text-align: center;
+    padding: 12px 9px 10px 9px;
+    border-bottom: 4px;
+    text-align: center;
     display: table-cell;
     list-style: none;
     border-left: 0 solid rgba(266,255,255,.08);
